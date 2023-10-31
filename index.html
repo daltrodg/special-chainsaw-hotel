@@ -65,7 +65,17 @@
               Remember me
             </label>
           </div>
-
+          <!--Date and Time Element-->
+          <div class="dateTime">
+            <label for="birthdaytime">When Were You Born?</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+          </div>
+          <!--Favorite Color Element-->
+          <div class="favoriteColor">
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+          </div>
+          <!--Start of Radio Buttons-->
           <div class="form-check">
             <input
               type="radio"
@@ -92,7 +102,7 @@
               class="form-check-input"
               id="radio3"
               name="optradio"
-              value="B"
+              value="C"
             />C-options
             <label class="form-check-label" for="radio3"></label>
           </div>
@@ -102,12 +112,18 @@
             class="form-select"
             aria-label="Default select example"
           >
-            <option selected disabled>Pick A or B above</option>
+            <option selected disabled>Pick A or B or C above</option>
           </select>
+
+          <div class="textBox">
+            <label for="textBox"></label>
+               <textarea id="textBox" name="textBox" placeholder="Tell Me Why You Are So Cool!!!" rows="4" cols="50"></textarea>
+          </div>
 
           <button id="submitForm" type="submit" class="btn btn-primary">
             Submit
           </button>
+          <input type="reset" value="Reset">
         </form>
       </div>
     </div>

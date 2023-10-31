@@ -151,3 +151,16 @@ nav ul li ul li a {
 #nav-toggle.active span:after {
   transform: rotate(-45deg);
 }
+#submitForm { 
+  margin: 10px;
+}
+body {
+  background-color: gray;
+}
+.card-title {
+  margin: 5px;
+}
+.dateTime, .favoriteColor, .textBox  {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
