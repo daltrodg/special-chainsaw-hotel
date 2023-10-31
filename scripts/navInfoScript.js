@@ -12,7 +12,7 @@ $(function() {
     },
     {
       title: "Page Validity",
-      link: "",
+      link: "https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdaltrodg.github.io%2Fspecial-chainsaw-hotel%2F",
       },
       {
     title: "Class GitHub Page",
