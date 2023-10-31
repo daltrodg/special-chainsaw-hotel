@@ -1,7 +1,7 @@
 $(function () {
   //what radio value did they select?
 
-  let userData = ["barry", "somethinglese"];
+  
   let userJSON = {
     email: "username@somewhere.com",
   };
@@ -54,19 +54,19 @@ $(function () {
 function getWords(letter) {
   console.log("in f/n getWords, here the paramter: ", letter);
 
-  let aWordArray = ["apple", "ant", "a"];
-  let bWordArray = ["bananan", "brains", "bbbq"];
-  let cWordArray = ["cat", "cactus", "charlie"];
+  let aWordArray = ["Red", "Purple", "Yellow"];
+  let bWordArray = ["Black", "Brown", "Orange"];
+  let cWordArray = ["Green", "Pink", "Gray"];
 
-  //todo: change to a switch/case ctrl structure.
 
-  if (letter === "A") {
-    return aWordArray;
-  } else if (letter === "B") {
-    return bWordArray;
-  } else if (letter === "C") {
-    return cWordArray;
-  } else {
-    return ["please select a letter"];
-  }
+  switch (letter) {
+    case "A":
+      return aWordArray;
+    case "B":
+      return bWordArray;
+    case "C":
+      return cWordArray;
+    default:
+      return ["please select a letter"];
+  }  
 }
